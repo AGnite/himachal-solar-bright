@@ -64,9 +64,9 @@ const WhyChooseUs = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Badge className="bg-gradient-secondary text-white px-6 py-2 text-sm">
+          <p className="text-xl font-semibold bg-gradient-primary bg-clip-text text-transparent">
             Trusted Partner for Clean Energy Solutions
-          </Badge>
+          </p>
         </div>
       </div>
     </section>
