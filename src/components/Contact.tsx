@@ -8,6 +8,8 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from "emailjs-com";
+
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, { message: "Name is required" }).max(100, { message: "Name must be less than 100 characters" }),
@@ -24,14 +26,32 @@ const Contact = () => {
   });
 
   const onSubmit = (data: ContactFormData) => {
-    // Here you would typically send the form data to your backend
-    console.log("Form submitted:", data);
+  emailjs.send(
+    "service_g751b6e",   // Get from EmailJS dashboard
+    "template_ododzo7",  // Get from EmailJS dashboard
+    {
+      from_name: data.name,
+      from_email: data.email,
+      message: data.message
+    },
+    "m7CkUypb9gK2bi_Vw"    // Get from EmailJS dashboard
+  )
+  .then(() => {
     toast({
       title: "Message sent!",
       description: "We'll get back to you as soon as possible.",
     });
     reset();
-  };
+  })
+  .catch(() => {
+    toast({
+      title: "Failed to send",
+      description: "Please try again later.",
+      variant: "destructive",
+    });
+  });
+};
+
 
   return (
     <section className="py-12 sm:py-20 bg-gradient-hero relative overflow-hidden">

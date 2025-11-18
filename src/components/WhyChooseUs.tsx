@@ -3,7 +3,7 @@ import { CheckCircle2 } from "lucide-react";
 
 const stats = [
   { value: "30+", label: "Years of Solar Expertise" },
-  { value: "25,000", label: "MW Solar Capacity Delivered" },
+  { value: "180+", label: "MW Solar Capacity Delivered" },
   { value: "100%", label: "Himachal Pradesh Focused" }
 ];
 

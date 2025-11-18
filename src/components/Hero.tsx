@@ -27,7 +27,7 @@ const Hero = () => {
           
           <p className="text-lg sm:text-xl text-foreground/80 mb-8 max-w-3xl mx-auto leading-relaxed">
             With 30+ years of on-ground experience in the Himalayan region and a proven track record of 
-            <span className="font-semibold text-primary"> 25,000 MW </span>
+            <span className="font-semibold text-primary"> 180+ MW </span>
             of solar projects delivered, we help businesses, institutions, and government bodies implement 
             solar projects with confidence, compliance, and complete peace of mind.
           </p>
