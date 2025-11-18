@@ -21,7 +21,9 @@ const Index = () => {
         <div id="why-us">
           <WhyChooseUs />
         </div>
-        <Contact />
+        <div id="contact">
+          <Contact />
+        </div>
       </main>
       <Footer />
     </div>

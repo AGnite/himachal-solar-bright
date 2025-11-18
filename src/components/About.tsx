@@ -13,14 +13,14 @@ const About = () => {
           </div>
           
           <div className="prose prose-lg max-w-none text-foreground/80 space-y-6 mb-12">
-            <p className="text-center leading-relaxed">
+            <p className="text-center leading-relaxed text-xl">
               For over three decades, we have been deeply involved in solar energy development across 
               Himachal Pradesh, supporting rooftop, ground-mount, and utility-scale installations. 
               Our experience spans remote terrains, high-altitude sites, complex regulatory landscapes, 
               and community-driven programs.
             </p>
             
-            <p className="text-center leading-relaxed">
+            <p className="text-center leading-relaxed text-xl">
               We specialize in delivering end-to-end solar consulting for organizations that want reliable 
               execution, transparent guidance, and long-term value. With unmatched understanding of Himachal's 
               solar policies, approval pathways, government schemes, and compliance checks, we ensure every 
@@ -36,7 +36,7 @@ const About = () => {
                   <Award className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="font-semibold text-foreground mb-2">Expertise</h4>
-                <p className="text-sm text-foreground/70">Deep knowledge and proven track record</p>
+                <p className="text-lg text-foreground/70">Deep knowledge and proven track record</p>
               </div>
               
               <div className="text-center">
@@ -44,7 +44,7 @@ const About = () => {
                   <Mountain className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="font-semibold text-foreground mb-2">Clarity</h4>
-                <p className="text-sm text-foreground/70">Transparent guidance every step</p>
+                <p className="text-lg text-foreground/70">Transparent guidance every step</p>
               </div>
               
               <div className="text-center">
@@ -52,7 +52,7 @@ const About = () => {
                   <Users className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="font-semibold text-foreground mb-2">Partnership</h4>
-                <p className="text-sm text-foreground/70">Working hand-in-hand with you</p>
+                <p className="text-lg text-foreground/70">Working hand-in-hand with you</p>
               </div>
             </div>
             

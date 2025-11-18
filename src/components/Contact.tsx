@@ -59,7 +59,7 @@ const Contact = () => {
         </Card>
         
         <div className="text-center mt-8">
-          <p className="text-sm text-foreground/60 italic">
+          <p className="text-lg text-foreground/60 italic">
             Your partner in Himachal's solar energy transformation
           </p>
         </div>

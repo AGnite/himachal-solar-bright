@@ -80,12 +80,12 @@ const Services = () => {
                 </div>
                 <CardTitle className="text-xl text-foreground">{service.title}</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-3">
-                <p className="text-base text-foreground/70 leading-relaxed">
+              <CardContent className="space-y-2">
+                <p className="text-lg text-foreground/70 leading-relaxed -mt-2">
                   {service.description}
                 </p>
                 <div className="pt-3 border-t border-border">
-                  <p className="text-sm font-semibold text-primary">
+                  <p className="text-lg font-semibold text-primary">
                     Outcome: <span className="font-normal text-foreground/80">{service.outcome}</span>
                   </p>
                 </div>
