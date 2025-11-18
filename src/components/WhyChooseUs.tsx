@@ -19,20 +19,23 @@ const benefits = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-20 bg-background relative overflow-hidden">
+    <section className="py-12 sm:py-20 bg-background relative overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5" />
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-foreground">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 text-foreground">
             Why Choose <span className="bg-gradient-primary bg-clip-text text-transparent">Us</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-primary mx-auto rounded-full" />
+          <div className="w-20 h-1 bg-gradient-primary mx-auto rounded-full mb-6" />
+          <p className="text-lg sm:text-xl font-semibold bg-gradient-primary bg-clip-text text-transparent">
+            Trusted Partner for Clean Energy Solutions
+          </p>
         </div>
         
         {/* Stats Section */}
-        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-16">
+        <div className="grid md:grid-cols-3 gap-6 sm:gap-8 max-w-4xl mx-auto mb-8 sm:mb-12">
           {stats.map((stat, index) => (
             <div 
               key={index} 
@@ -61,12 +64,6 @@ const WhyChooseUs = () => {
               </div>
             ))}
           </div>
-        </div>
-        
-        <div className="text-center mt-12">
-          <p className="text-xl font-semibold bg-gradient-primary bg-clip-text text-transparent">
-            Trusted Partner for Clean Energy Solutions
-          </p>
         </div>
       </div>
     </section>

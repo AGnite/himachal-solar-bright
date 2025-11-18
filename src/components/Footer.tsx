@@ -2,7 +2,7 @@ import { Sun } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-foreground/5 border-t border-border py-12">
+    <footer className="bg-foreground/5 border-t border-border py-8 sm:py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-6">
           <div className="flex items-center gap-2">
