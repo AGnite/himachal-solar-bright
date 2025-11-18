@@ -2,11 +2,11 @@ import { Award, Mountain, Users } from "lucide-react";
 
 const About = () => {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-12 sm:py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-foreground">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 text-foreground">
               About <span className="bg-gradient-primary bg-clip-text text-transparent">Us</span>
             </h2>
             <div className="w-20 h-1 bg-gradient-primary mx-auto rounded-full" />
