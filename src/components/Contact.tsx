@@ -27,15 +27,16 @@ const Contact = () => {
 
   const onSubmit = (data: ContactFormData) => {
   emailjs.send(
-    "service_g751b6e",   // Get from EmailJS dashboard
-    "template_ododzo7",  // Get from EmailJS dashboard
-    {
-      from_name: data.name,
-      from_email: data.email,
-      message: data.message
-    },
-    "m7CkUypb9gK2bi_Vw"    // Get from EmailJS dashboard
-  )
+  "service_g751b6e",
+  "template_ododzo7",
+  {
+    name: data.name,       // must match {{name}}
+    email: data.email,     // must match {{email}}
+    message: data.message, // must match {{message}}
+  },
+  "m7CkUypb9gK2bi_Vw"
+)
+
   .then(() => {
     toast({
       title: "Message sent!",
@@ -147,7 +148,7 @@ const Contact = () => {
         </Card>
         
         <div className="text-center mt-8">
-          <p className="text-base sm:text-lg text-foreground/60 italic">
+          <p className="text-base sm:text-lg text-foreground/100 italic">
             Your partner in Himachal's solar energy transformation
           </p>
         </div>

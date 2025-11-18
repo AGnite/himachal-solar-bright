@@ -12,7 +12,7 @@ const Footer = () => {
             <span className="font-bold text-lg text-foreground">HimSolarConsulting</span>
           </div>
           
-          <p className="text-center text-foreground/70 max-w-md">
+          <p className="text-center text-foreground/100 max-w-md">
             Empowering Himachal Pradesh with 30+ years of solar energy expertise
           </p>
           

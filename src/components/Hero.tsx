@@ -46,7 +46,7 @@ const Hero = () => {
             </Button>
           </div>
           
-          <div className="mt-12 text-lg text-foreground/60 italic">
+          <div className="mt-12 text-lg text-foreground/100 italic">
             → Empowering sustainable growth across the mountains.
           </div>
         </div>
