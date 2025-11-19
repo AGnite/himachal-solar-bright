@@ -49,7 +49,7 @@ const services = [
   {
     icon: Sun,
     title: "Rooftop & Ground-Mount Solar Solutions",
-    description: "We assist institutions, industries, government departments, hotels, and farms with the design, tendering, and execution of rooftop and ground-mounted solar systems.",
+    description: "We assist institutions, industries, government departments and hotels with the design, tendering, and execution of rooftop and ground-mounted solar systems.",
     outcome: "Tailored solutions built for reliability and efficiency."
   }
 ];
