@@ -9,7 +9,7 @@ const stats = [
 
 const benefits = [
   "30+ years of solar expertise in Himachal Pradesh",
-  "25,000 MW of solar capacity delivered across the state",
+  "180+ MW of solar capacity delivered across the state",
   "Deep knowledge of government approvals, policies & subsidy mechanisms",
   "Proven capability in mountainous and remote terrains",
   "Transparent, structured, and reliable processes",

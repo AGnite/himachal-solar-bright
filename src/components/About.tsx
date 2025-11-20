@@ -14,8 +14,8 @@ const About = () => {
           
           <div className="prose prose-lg max-w-none text-foreground/80 space-y-6 mb-12">
             <p className="text-center leading-relaxed text-xl">
-              For over three decades, we have been deeply involved in solar energy development across 
-              Himachal Pradesh, supporting rooftop, ground-mount, and handholdings. 
+              For over three decades, we have been actively involved in solar energy development across Himachal 
+              Pradesh, supporting rooftop and ground-mounted projects and providing comprehensive handholding throughout their implementation.
               Our experience spans remote terrains, high-altitude sites, complex regulatory landscapes, 
               and community-driven programs.
             </p>
